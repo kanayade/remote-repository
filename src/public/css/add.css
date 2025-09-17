@@ -1,0 +1,47 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+.contact-form__heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6b5a4a;
+    font-family: "Epunda Slab", serif;
+}
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+.form__group {
+    display: flex;
+    font-size: 14px;
+    color: #6b5a4a;
+    margin-bottom: 15px;
+}
+.form__group-title {
+    width: 120px;
+    font-size: 14px;
+    color: #6b5a4a;
+}
+.form__input--text input, .form__input--tel input, .form__input--select select, .form__input--textarea textarea {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.form__input--radio input {
+    margin-right: 5px;
+}
+.form__label--required, .form__error {
+    color: red;
+}
+.form__button-submit {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #6b5a4a;
+    color: #fff;
+    text-decoration: none;
+}
